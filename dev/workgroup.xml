@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="templates/list.xsl" ?>
+<list onload="intelcomp.Workgroup.init(this, []);">
+	<class src="scripts/intelcomp.js" />
+	<class src="scripts/Workgroup.class.js" />
+	<style src="templates/theme.css" />
+	<style src="templates/tree.css" />
+	
+	<title>Administrar Usuarios</title>
+	
+	<login alias="Zeitv Fawkes" />
+
+	<controlbar>
+		<button label="Nuevo" disabled="true" />
+		<button label="Editar" />
+		<button label="Eliminar" disabled="true" onclick="return intelcomp.Workgroup.onDeleteClick(this, []);" />
+	</controlbar>
+	
+	<datagrid id="workgroup">
+		<col type="number" id="_id" />
+		<col type="string" id="_fullname" size="8" label="Nombre" />
+		<col type="string" id="_alias" size="32" label="Alias" />
+		<col type="string" id="_email" size="16" label="e-Mail" required="true" />
+		<col type="string" id="_role" size="16" label="Rol" />
+		<col type="string" id="_enabled" size="16" label="Activo" />
+	</datagrid>
+</list>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="templates/list.xsl" ?>
+<list onload="intelcomp.Downloads.init(this, []);">
+	<class src="scripts/intelcomp.js" />
+	<class src="scripts/Downloads.class.js" />
+	<style src="templates/theme.css" />
+	<style src="templates/tree.css" />
+	
+	<title>Administrar Descargas</title>
+	
+	<login alias="Zeitv Fawkes" />
+
+	<controlbar>
+		<button label="Nuevo" />
+		<button label="Editar" />
+		<button label="Eliminar" onclick="return intelcomp.Downloads.onDeleteClick(this, []);" />
+	</controlbar>
+	
+	<datagrid id="downloads">
+		<col type="number" id="_id" />
+		<col type="string" id="_product" label="Producto" />
+		<col type="string" id="_url" label="Direcci&#xf3;n de Descarga" />
+		<col type="string" id="_enabled" label="Activo" />
+	</datagrid>
+</list>

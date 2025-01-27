@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Intelcomp - Noticias. San Jos&#233;, Costa Rica.</title>
+		<link>http://wvw.intelcomp.ru/</link>
+		<description>
+			San Jos&#233;, Costa Rica. Para el seguimiento del acontecer inform&#225;tico.
+		</description>
+		<language>es-CR</language>
+		<webmaster>webmaster@intelcomp.ru</webmaster>
+		<copyright>
+			Copyright 2013 Intelcomp | Todos los derechos reservados
+		</copyright>
+		<docs>http://wvw.intelcomp.ru/news.xml</docs>
+		<item>
+			<title>
+				DDS .Net Coding Standards
+			</title>
+			<link>
+				http://wvw.intelcomp.ru/news.xml#1
+			</link>
+			<description>
+				Elaborado por Mario Barquero.
+			</description>
+			<author>Jes&#250;s Bejarano Quesada</author>
+			<pubdate>Thu, 04 Apr 2013 00:00:00 -0600</pubdate>
+		</item>
+		<item>
+			<title>
+				.Net Coding Standarts
+			</title>
+			<link>
+				http://weblogs.asp.net/scottdockendorf/archive/2005/01/26/361020.aspx
+			</link>
+			<author>Jes&#250;s Bejarano Quesada</author>
+			<pubdate>Thu, 04 Apr 2013 00:00:00 -0600</pubdate>
+		</item>
+		<item>
+			<title>
+				Como revisar el funcionamiento del WS
+			</title>
+			<link>
+				http://wvw.intelcomp.ru/news.xml#3
+			</link>
+			<description>
+				Este documento indica los pasos a seguir para verificar el buen funcionamiento del WS.
+			</description>
+			<author>Oscar Jimenez Campos</author>
+			<pubdate>Thu, 04 Apr 2013 00:00:00 -0600</pubdate>
+		</item>
+		<item>
+			<title>
+				Compramos nuevos componentes web para desarrollo: DHTMLX 2.1
+			</title>
+			<link>
+				http://www.dhtmlx.com/index.shtml
+			</link>
+			<description>
+				oScaR  encontr&#243; un set de componentes web que nos resuelven muchos dolores de cabeza que tenemos actualmente.
+			</description>
+			<author>Jes&#250;s Bejarano Quesada</author>
+			<pubdate>Thu, 04 Apr 2013 00:00:00 -0600</pubdate>
+		</item>
+	</channel>
+</rss>
