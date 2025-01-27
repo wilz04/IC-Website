@@ -1,0 +1,119 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Administrar Usuarios</title>
+<script src="scripts/intelcomp.js">
+<script src="scripts/Workgroup.class.js">
+</script>
+<link rel="stylesheet" type="text/css" media="screen" href="templates/theme.css">
+<link rel="stylesheet" type="text/css" media="screen" href="templates/tree.css">
+</head>
+<body onload="intelcomp.Workgroup.init(this, []);">
+<div class="login">
+<div>
+<span>Bienvenido </span>
+<span>Zeitv Fawkes</span>
+<span>! </span>
+<a href="#">Salir?</a>
+</div>
+<div>
+<select style="width:200px">
+<option>Usuarios</option>
+<option>Roles</option>
+<option>Clientes</option>
+<option>Noticias</option>
+<option>Productos</option>
+<option>Descargas</option>
+<option>Foro</option>
+</select>
+<input type="button" value="Administrar">
+</div>
+</div>
+<div class="news">
+<img class="logo" border="0" src="images/iclogo4.jpg">
+<div class="menu">
+<ul>
+<li>
+<a href="#">Inicio</a>
+</li>
+<li>
+<a href="#">Nosotros</a>
+</li>
+<li>
+<a href="#">Productos</a>
+</li>
+<li>
+<a href="#">Clientes</a>
+</li>
+<li>
+<a href="#">Contacto</a>
+</li>
+<li>
+<a href="#">Descargas</a>
+</li>
+<li>
+<a href="#">Foro</a>
+</li>
+<li>
+<a href="#">BugZilla</a>
+</li>
+</ul>
+</div>
+<div class="mainarea" height="90%">
+<h1>Administrar Usuarios</h1>
+<table id="workgroup" class="datagrid" cellspacing="0" cellpadding="0" border="0" align="center">
+<thead>
+<tr>
+<th scope="col"></th>
+<th scope="col">Nombre</th>
+<th scope="col">Alias</th>
+<th scope="col">e-Mail</th>
+<th scope="col">Rol</th>
+<th scope="col">Activo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<input type="radio" value="1">
+</td>
+<td>Jesús Bejarano</td>
+<td>Chus</td>
+<td>jbejarano@intelcomp.ru</td>
+<td>Administrador</td>
+<td><input type="checkbox" checked="checked"></td>
+</tr>
+<tr>
+<td>
+<input type="radio" value="2">
+</td>
+<td>Oscar Jimenez</td>
+<td>Azucar</td>
+<td>ojimenez@intelcomp.ru</td>
+<td>Administrador</td>
+<td><input type="checkbox" checked="checked"></td>
+</tr>
+<tr>
+<td>
+<input type="radio" value="3">
+</td>
+<td>Wilberth Castro</td>
+<td>Zeitv Fawkes</td>
+<td>wilz04@hotmail.com</td>
+<td>Administrador</td>
+<td><input type="checkbox" checked="checked"></td>
+</tr>
+</tbody>
+</table>
+<div class="controlbar">
+<input type="button" value="Nuevo" disabled="disabled">
+<input type="button" value="Editar">
+<input type="button" value="Eliminar">
+</div>
+</div>
+<div class="footer">
+<p>2013 intelcomp.ru</p>
+</div>
+</div>
+</body>
+</html>
